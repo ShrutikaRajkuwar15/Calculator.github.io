@@ -79,3 +79,53 @@ input{
         background-color:rgb(235, 200, 156);
     }
     
+    @media screen and (max-width:900px){
+        .form1{
+        width :200px;
+        height: 350px;
+        border-radius: 15px;
+        border-width: 10px;
+        margin:auto;
+    }
+    input{
+        width: 45px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px ;
+
+    }
+    #answer1{
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        text-align: right;
+        background-color: rgb(219, 184, 86);
+
+    }
+}
+    @media(max-width:450px){
+        .form1{
+            width: 150px;
+            margin: auto;
+            height: 320px;
+            border-radius: 20px ;
+            padding: 10px;
+
+
+        }
+        input{
+            width: 34px;
+            height:32px;
+            font-size: 14px;
+            border-radius: 10px ;
+            border-radius: double;
+        }
+        #answer1{
+            width: 150px;
+            height: 40px;
+            font-size: 20px;
+            text-align: right;
+            background-color: rgb(219, 184, 86);
+    
+        }
+    }
